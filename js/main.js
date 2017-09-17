@@ -37,3 +37,10 @@ string.replace('7, what a perfect choice!')
 console.log(numba (7));
 console.log(numba ('seventy'));
 console.log(numba ('university'));
+
+var combiner = function inception(display, favMovie) {
+    display(favMovie);
+}
+console.log (inception());
+
+var movieTitle = combiner('Avatar', 'is a fantastic movie.');
